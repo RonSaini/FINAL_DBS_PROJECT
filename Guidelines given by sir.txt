@@ -1,0 +1,19 @@
+PFA the template for DBS Mini Project Report. 
+Circulate amongst your classmates. Report must include:
+
+Abstract (with modifications, if any) 
+
+Problem Statement (covering both data and functional requirements)
+
+ER Diagram & Relational Tables along with sample data
+
+DDL Commands to create table with necessary integrity constraints
+
+List of SQL Queries 
+ UI Design (include screenshots)
+
+PL/SQL Procedures / Functions / Triggers
+
+Code for functional design (DB connectivity, PL/SQL Procedure/Function call /data access)
+
+References
