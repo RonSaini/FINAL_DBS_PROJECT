@@ -16,7 +16,7 @@ BEGIN
         WHEN UPDATING THEN 
             INSERT INTO success_log VALUES(:OLD.bill_id,CURRENT_TIMESTAMP);
         WHEN INSERTING THEN 
-            INSERT INTO success_log VALUES(:OLD.bill_id,CURRENT_TIMESTAMP);    
+            INSERT INTO success_log VALUES(:NEW.bill_id,CURRENT_TIMESTAMP);    
     END CASE;
 END;
 /    
